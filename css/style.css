@@ -883,3 +883,30 @@
     font-size: 5.5rem;
   }
 }
+@media (max-width: 390px){
+  /* sec-1 */
+  .sec-1 .cakes .cake-img{
+    width: 350px;
+    height: 400px;
+  }
+
+  /* sec-2 */
+  .sec-2 .left-content {
+    height: 520px;
+  }
+  .sec-2 .right-content {
+    height: 650px;
+}
+  .sec-2 .hamburger {
+    width: 320px;
+  }
+  .sec-2 .new-content .main-head{
+    font-size: 4.25rem;
+  }
+  .sec-2 .right-content .new-content{
+    width: 75vw;
+  }
+  .sec-2 .new-content .menu-detail {
+    width: 70vw;
+}
+}
