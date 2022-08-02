@@ -755,6 +755,7 @@
     font-size: 3.5rem;
   }
 
+
   /* sec-1 */
   .sec-1 .head h1{
     font-size: 5.5rem;
@@ -782,7 +783,8 @@
     font-size: 8rem;
   }
 }
-@media (max-width:690px){
+
+@media (max-width: 690px){
   /* 배너영역 */
   .banner .video-box{
     width: 75vw;
@@ -793,5 +795,91 @@
     height: 580px;
   }
 }
-@media (max-width:580px){
+
+@media (max-width: 580px){
+
+  .banner .banner-main-txt .right-box{
+    width: 75vw;
+  }
+  
+  /* sec-1 */
+  .sec-1 .head h1{
+    font-size: 4.5rem;
+  }
+  .sec-1 .head-txt-box .head-sub{
+    width: 55vw;
+  }
+  .sec-1 .cakes .cake-img{
+    width: 450px;
+    height: 500px;
+  }
+  .sec-1 .cake-box .num{
+    font-size: 1.2rem;
+  }
+  .sec-1 .cake-box .cake-name{
+    font-size: 1.25rem;
+  }
+  .sec-1 .cakes .cake-box .des-txt{
+    width: 52vw;
+  }
+
+  /* sec-2  */
+  .sec-2 .new-content .menu-detail{
+    width: 45vw;
+  }
+  .sec-2 .new-content .sub-head{
+    font-size: 0.875rem;
+  }
+
+  /* sec-3 */
+  .sec-3 .l-txt{
+    font-size: 6.5rem;
+  }
+}
+@media (max-width: 480px){
+  /* sec-1 */
+  .sec-1 .head h1{
+    font-size: 4rem;
+  }
+  .sec-1 .head-txt-box .head-sub{
+    font-size: 0.75rem;
+  }
+  .sec-1 .cakes .cake-img{
+    width: 380px;
+    height: 450px;
+  }
+  .sec-1 .cakes .cake-box .des-txt{
+    width: 65vw;
+  }
+  .sec-1 .cakes .cake-box{
+    margin-bottom: 80px;
+  }
+
+  /* sec-2 */
+  .sec-2 .left-content{
+    height: 650px;
+  }
+  .sec-2 .hamburger{
+    width: 350px;
+  }
+  .sec-2 .right-content{
+    height: 720px;
+  }
+  .sec-2 .new-content .main-head{
+    font-size: 5rem;
+  }
+  .sec-2 .new-content .sub-head{
+    font-size: 0.75rem;
+  }
+  .sec-2 .right-content .new-num{
+    top: 45%;
+  }
+  .sec-2 .new-content .menu-detail .menu-detail{
+    font-size: 0.875rem;
+  }
+
+  /* sec-3 */
+  .sec-3 .l-txt{
+    font-size: 5.5rem;
+  }
 }
