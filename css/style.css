@@ -937,6 +937,9 @@
     padding-top: 25px;
     padding-bottom: 80px;
   }
+  .sec-4 .stores-box .stores-txt .name {
+    font-size: 1.125rem;
+  }
 }
 @media (max-width: 390px) {
   /* sec-1 */
