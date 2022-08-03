@@ -530,10 +530,10 @@
   }
 
   /* sec-4 영역 */
-  .sec-4 .stores-box {
+  /* .sec-4 .stores-box {
     width: 75vw;
     margin: 0 auto;
-  }
+  } */
   .sec-4 .stores-box .box {
     margin-right: 20px;
   }
@@ -704,188 +704,191 @@
     font-size: 10rem;
   }
 }
-@media(max-width:1000px){
-  .banner .video-box{
+@media (max-width: 1000px) {
+  .banner .video-box {
     width: 70vw;
     margin-top: 50px;
   }
 
   /* sec-1 */
-  .sec-1 .head-txt-box .head-sub{
+  .sec-1 .head-txt-box .head-sub {
     width: 35vw;
   }
-  .sec-1 .cakes .cake-box{
+  .sec-1 .cakes .cake-box {
     margin-bottom: 100px;
   }
   /* sec-2 영역 */
-  .sec-2 .container{
+  .sec-2 .container {
     height: auto;
     flex-direction: column;
   }
-  .sec-2 .left-content{
+  .sec-2 .left-content {
     width: 100%;
     height: 860px;
   }
-  .sec-2 .right-content{
+  .sec-2 .right-content {
     width: 100%;
     height: 800px;
   }
-  .sec-2 .right-content .new-num{
+  .sec-2 .right-content .new-num {
     display: flex;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
   }
-  .sec-2 .right-content .new-num li{
+  .sec-2 .right-content .new-num li {
     margin-right: 35px;
   }
-  .sec-2 .right-content .new-num li:last-child{
+  .sec-2 .right-content .new-num li:last-child {
     margin-right: 0;
   }
-  .sec-2 .new-content .sub-head{
+  .sec-2 .new-content .sub-head {
     color: #adadad;
   }
-  .sec-2 .new-content .menu-detail{
+  .sec-2 .new-content .menu-detail {
     width: 30vw;
   }
 }
-@media (max-width: 750px){
+@media (max-width: 750px) {
   /* 배너영역 */
-  .banner-main-txt .right-box .main-slogan{
+  .banner-main-txt .right-box .main-slogan {
     font-size: 3.5rem;
   }
 
-
   /* sec-1 */
-  .sec-1 .head h1{
+  .sec-1 .head h1 {
     font-size: 5.5rem;
   }
-  .sec-1 .head-txt-box .head-sub{
+  .sec-1 .head-txt-box .head-sub {
     width: 45vw;
   }
-  .sec-1 .cakes{
+  .sec-1 .cakes {
     margin-top: 100px;
   }
-  .sec-1 .cakes .cake-box .des-txt{
+  .sec-1 .cakes .cake-box .des-txt {
     width: 40vw;
   }
 
   /* sec-2 */
-  .sec-2 .new-content .main-head{
+  .sec-2 .new-content .main-head {
     font-size: 6.25rem;
   }
-  .sec-2 .new-content .menu-detail{
+  .sec-2 .new-content .menu-detail {
     width: 35vw;
   }
 
   /* sec-3 */
-  .sec-3 .l-txt{
+  .sec-3 .l-txt {
     font-size: 8rem;
   }
 }
 
-@media (max-width: 690px){
+@media (max-width: 690px) {
   /* 배너영역 */
-  .banner .video-box{
+  .banner .video-box {
     width: 75vw;
   }
   /* sec-1 */
-  .sec-1 .cakes .cake-img{
+  .sec-1 .cakes .cake-img {
     width: 520px;
     height: 580px;
   }
 }
 
-@media (max-width: 580px){
-
-  .banner .banner-main-txt .right-box{
+@media (max-width: 580px) {
+  .banner .banner-main-txt .right-box {
     width: 75vw;
   }
-  
+
   /* sec-1 */
-  .sec-1 .head h1{
+  .sec-1 .head h1 {
     font-size: 4.5rem;
   }
-  .sec-1 .head-txt-box .head-sub{
+  .sec-1 .head-txt-box .head-sub {
     width: 55vw;
   }
-  .sec-1 .cakes .cake-img{
+  .sec-1 .cakes .cake-img {
     width: 450px;
     height: 500px;
   }
-  .sec-1 .cake-box .num{
+  .sec-1 .cake-box .num {
     font-size: 1.2rem;
   }
-  .sec-1 .cake-box .cake-name{
+  .sec-1 .cake-box .cake-name {
     font-size: 1.25rem;
   }
-  .sec-1 .cakes .cake-box .des-txt{
+  .sec-1 .cakes .cake-box .des-txt {
     width: 52vw;
   }
 
   /* sec-2  */
-  .sec-2 .new-content .menu-detail{
+  .sec-2 .new-content .menu-detail {
     width: 45vw;
   }
-  .sec-2 .new-content .sub-head{
+  .sec-2 .new-content .sub-head {
     font-size: 0.875rem;
   }
 
   /* sec-3 */
-  .sec-3 .l-txt{
+  .sec-3 .l-txt {
     font-size: 6.5rem;
   }
 }
-@media (max-width: 480px){
+@media (max-width: 480px) {
   /* sec-1 */
-  .sec-1 .head h1{
+  .sec-1 .head h1 {
     font-size: 4rem;
   }
-  .sec-1 .head-txt-box .head-sub{
+  .sec-1 .head-txt-box .head-sub {
     font-size: 0.75rem;
   }
-  .sec-1 .cakes .cake-img{
+  .sec-1 .cakes .cake-img {
     width: 380px;
     height: 450px;
   }
-  .sec-1 .cakes .cake-box .des-txt{
+  .sec-1 .cakes .cake-box .des-txt {
     width: 65vw;
   }
-  .sec-1 .cakes .cake-box{
+  .sec-1 .cakes .cake-box {
     margin-bottom: 80px;
   }
 
   /* sec-2 */
-  .sec-2 .left-content{
+  .sec-2 .left-content {
     height: 650px;
   }
-  .sec-2 .hamburger{
+  .sec-2 .hamburger {
     width: 350px;
   }
-  .sec-2 .right-content{
+  .sec-2 .right-content {
     height: 720px;
   }
-  .sec-2 .new-content .main-head{
+  .sec-2 .new-content .main-head {
     font-size: 5rem;
   }
-  .sec-2 .new-content .sub-head{
+  .sec-2 .new-content .sub-head {
     font-size: 0.75rem;
   }
-  .sec-2 .right-content .new-num{
+  .sec-2 .right-content .new-num {
     top: 45%;
   }
-  .sec-2 .new-content .menu-detail .menu-detail{
+  .sec-2 .new-content .menu-detail .menu-detail {
     font-size: 0.875rem;
   }
 
   /* sec-3 */
-  .sec-3 .l-txt{
+  .sec-3 .l-txt {
     font-size: 5.5rem;
   }
 }
-@media (max-width: 390px){
+@media (max-width: 420px) {
+  .sec-2 .new-content .menu-detail {
+    width: 70vw;
+  }
+}
+@media (max-width: 390px) {
   /* sec-1 */
-  .sec-1 .cakes .cake-img{
+  .sec-1 .cakes .cake-img {
     width: 350px;
     height: 400px;
   }
@@ -896,17 +899,17 @@
   }
   .sec-2 .right-content {
     height: 650px;
-}
+  }
   .sec-2 .hamburger {
     width: 320px;
   }
-  .sec-2 .new-content .main-head{
+  .sec-2 .new-content .main-head {
     font-size: 4.25rem;
   }
-  .sec-2 .right-content .new-content{
+  .sec-2 .right-content .new-content {
     width: 75vw;
   }
   .sec-2 .new-content .menu-detail {
     width: 70vw;
-}
+  }
 }
