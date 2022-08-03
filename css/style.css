@@ -629,6 +629,7 @@
     top: 5px;
     left: 10px;
     background-color: #222;
+    transition: 0.3s;
   }
   #hamburger span:first-child {
     top: 0;
@@ -639,10 +640,14 @@
     left: 0;
   }
   #hamburger.active span:first-child {
-    transform: translateY(10px);
+    transform: rotate(45deg);
+    top: 50%;
+    background-color: #fff;
   }
   #hamburger.active span:last-child {
-    transform: translateY(-10px);
+    transform: rotate(-45deg);
+    top: 50%;
+    background-color: #fff;
   }
   .banner .nav-area {
     width: 100vw;
