@@ -924,6 +924,10 @@
     width: 380px;
     height: 380px;
   }
+  /* footer */
+  .footer .copyright {
+    font-size: 0.75rem;
+  }
 }
 @media (max-width: 420px) {
   .sec-2 .new-content .menu-detail {
