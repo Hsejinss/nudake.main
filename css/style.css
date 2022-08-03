@@ -900,6 +900,12 @@
   .banner .banner-main-txt .right-box {
     width: 75vw;
   }
+  .nav-area .nav li {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.5;
+    transition: 0.5s;
+  }
 
   /* sec-1 */
   .sec-1 .head h1 {
@@ -948,6 +954,13 @@
   }
 }
 @media (max-width: 480px) {
+  /* 배너 영역 */
+  .nav-area .nav li {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 2;
+    transition: 0.5s;
+  }
   /* sec-1 */
   .sec-1 .head h1 {
     font-size: 4rem;
@@ -1018,6 +1031,13 @@
   }
 }
 @media (max-width: 420px) {
+  /* 배너영역 */
+  .nav-area .nav li {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.5;
+    transition: 0.5s;
+  }
   .sec-2 .new-content .menu-detail {
     width: 70vw;
   }
