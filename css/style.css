@@ -635,14 +635,51 @@
     top: 10px;
     left: 0;
   }
+  #hamburger.active span:first-child {
+    transform: translateY(10px);
+  }
+  #hamburger.active span:last-child {
+    transform: translateY(-10px);
+  }
+  .banner .nav-area {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 99;
+    transition: 0.5s;
+    transform: translateX(100%);
+  }
+  .banner .nav-area.active {
+    transform: translateX(0);
+  }
+  .nav-area .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-area .nav li {
+    font-size: 4rem;
+    color: #fff;
+    line-height: 2;
+    transition: 0.5s;
+  }
+  .nav-area .nav li:hover {
+    color: rgb(131, 158, 80);
+  }
   .header-area {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .nav-area {
+  /* .nav-area {
     display: none;
-  }
+  } */
 
   /* 배너 메인 텍스트 영역 */
   .banner .banner-main-txt {
@@ -905,7 +942,7 @@
     font-size: 5rem;
   }
   .sec-2 .new-content .sub-head {
-    font-size: 0.75rem;
+    font-size: 0.875rem;
   }
   .sec-2 .right-content .new-num {
     top: 45%;
