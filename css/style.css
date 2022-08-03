@@ -538,7 +538,11 @@
     margin-right: 20px;
   }
   .sec-4 .stores-box .box:last-child {
-    margin-right: -20px;
+    margin-right: 0px;
+  }
+  .sec-4 .box .stores-img {
+    width: 420px;
+    height: 420px;
   }
 }
 @media (max-width: 1330px) {
@@ -583,6 +587,21 @@
   /* sec-3 영역 */
   .sec-3 .l-txt {
     font-size: 12rem;
+  }
+  /* sec-4 영역 */
+  .sec-4 .stores-box {
+    width: 72vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .sec-4 .stores-box .box {
+    margin-right: 0;
+    width: 100%;
+  }
+  .sec-4 .box .stores-img {
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 1200px) {
@@ -781,6 +800,14 @@
   .sec-3 .l-txt {
     font-size: 8rem;
   }
+
+  /* sec-4 영역 */
+  .sec-4 .stores {
+    font-size: 4.25rem;
+  }
+  .sec-4 .stores-box {
+    width: 100%;
+  }
 }
 
 @media (max-width: 690px) {
@@ -792,6 +819,17 @@
   .sec-1 .cakes .cake-img {
     width: 520px;
     height: 580px;
+  }
+  /* sec-4 */
+  .sec-4 .box .stores-img {
+    width: 450px;
+    height: 450px;
+  }
+  .sec-4 .stores-box .stores-txt .location {
+    font-size: 0.875rem;
+  }
+  .sec-4 .stores-box .stores-txt .number {
+    font-size: 0.75rem;
   }
 }
 
@@ -880,10 +918,24 @@
   .sec-3 .l-txt {
     font-size: 5.5rem;
   }
+
+  /* sec-4 */
+  .sec-4 .box .stores-img {
+    width: 380px;
+    height: 380px;
+  }
 }
 @media (max-width: 420px) {
   .sec-2 .new-content .menu-detail {
     width: 70vw;
+  }
+  .sec-4 .box .stores-img {
+    width: 320px;
+    height: 320px;
+  }
+  .sec-4 .stores-box .stores-txt {
+    padding-top: 25px;
+    padding-bottom: 80px;
   }
 }
 @media (max-width: 390px) {
