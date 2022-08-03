@@ -928,6 +928,12 @@
   .footer .copyright {
     font-size: 0.75rem;
   }
+  .footer {
+    height: 200px;
+  }
+  .footer .container {
+    line-height: 200px;
+  }
 }
 @media (max-width: 420px) {
   .sec-2 .new-content .menu-detail {
