@@ -333,6 +333,9 @@
 .sec-2 .right-content .new-num li > a {
   font-size: 1.125rem;
   font-family: "US_Plain_Bold";
+  color: #a0a0a0;
+}
+.sec-2 .right-content .new-num li a.active {
   color: #333;
 }
 .sec-2 .right-content .new-content {
@@ -804,6 +807,12 @@
   .sec-2 .new-content .menu-detail {
     width: 30vw;
   }
+
+  /* sec-3 */
+  .sec-3 .container {
+    background-attachment: scroll;
+    height: 1000px;
+  }
 }
 @media (max-width: 750px) {
   /* 배너영역 */
@@ -837,6 +846,11 @@
   .sec-3 .l-txt {
     font-size: 8rem;
   }
+  /* sec-3 */
+  .sec-3 .container {
+    background-attachment: scroll;
+    height: 750px;
+  }
 
   /* sec-4 영역 */
   .sec-4 .stores {
@@ -856,6 +870,13 @@
   .sec-1 .cakes .cake-img {
     width: 520px;
     height: 580px;
+  }
+  /* sec-2 */
+  .sec-2 .left-content {
+    height: 680px;
+  }
+  .sec-2 .hamburger {
+    width: 420px;
   }
   /* sec-4 */
   .sec-4 .box .stores-img {
@@ -904,9 +925,21 @@
     font-size: 0.875rem;
   }
 
+  .sec-2 .left-content {
+    height: 650px;
+  }
+  .sec-2 .hamburger {
+    width: 380px;
+  }
+
   /* sec-3 */
   .sec-3 .l-txt {
     font-size: 6.5rem;
+  }
+  /* sec-3 */
+  .sec-3 .container {
+    background-attachment: scroll;
+    height: 620px;
   }
 }
 @media (max-width: 480px) {
@@ -936,7 +969,7 @@
     width: 350px;
   }
   .sec-2 .right-content {
-    height: 720px;
+    height: 620px;
   }
   .sec-2 .new-content .main-head {
     font-size: 5rem;
@@ -949,6 +982,13 @@
   }
   .sec-2 .new-content .menu-detail .menu-detail {
     font-size: 0.875rem;
+  }
+
+  .sec-2 .left-content {
+    height: 560px;
+  }
+  .sec-2 .hamburger {
+    width: 300px;
   }
 
   /* sec-3 */
@@ -1000,7 +1040,7 @@
     height: 520px;
   }
   .sec-2 .right-content {
-    height: 650px;
+    height: 560px;
   }
   .sec-2 .hamburger {
     width: 320px;
@@ -1013,5 +1053,13 @@
   }
   .sec-2 .new-content .menu-detail {
     width: 70vw;
+  }
+  /* sec-3 */
+  .sec-3 .container {
+    background-attachment: scroll;
+    height: 580px;
+  }
+  .sec-3 .l-txt {
+    font-size: 4rem;
   }
 }
