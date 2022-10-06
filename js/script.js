@@ -35,7 +35,7 @@ $(document).ready(function () {
   });
 
   // sec-1에 닿을때 line svg가 그려지도록
-  const sec1 = $(".sec-1").offset().top;
+  const sec1 = $(".sec-1 .cakes").offset().top;
 
   //  scrollTop: sct, if문 사용
   $(window).scroll(function () {
